@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <Button
+        android:id="@+id/goSameProcess"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="跳转到Home界面"
+        android:textAllCaps="false"  />
+    <Button
+        android:layout_below="@+id/goSameProcess"
+        android:id="@+id/goDifferentProcess"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="跳转到我的Mind界面"
+        android:textAllCaps="false" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="根据 sarlmoclen /SRouterDemo 转换于2020年3月18日"
+        android:textColor="#666666"
+        android:lines="1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:textSize="13dp"
+        android:background="@drawable/sarlmoclen_logo_bg"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"/>
+</RelativeLayout>

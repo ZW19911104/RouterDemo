@@ -1,0 +1,2 @@
+include ':app', ':library', ':app_auth', ':app_home', ':app_mine', ':app_state', ':router'
+rootProject.name='RouterDemo'
